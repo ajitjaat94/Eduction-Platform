@@ -1,0 +1,27 @@
+{
+  "name": "100-project100",
+  "version": "1.0.0",
+  "description": "Edutional web app ",
+  "license": "ISC",
+  "author": "Ajit",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cloudinary": "^2.9.0",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "express-validator": "^7.3.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.1.5",
+    "multer": "^2.1.1",
+    "sib-api-v3-sdk": "^8.5.0",
+    "streamifier": "^0.1.1"
+  }
+}
