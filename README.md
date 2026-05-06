@@ -72,6 +72,59 @@ src/
 
 ---
 
+# 📘 API Documentation
+
+## 🔐 Authentication Routes
+
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| POST | /api/v1/auth/signup | Register new user |
+| POST | /api/v1/auth/login | Login user |
+| POST | /api/v1/refresh | Refresh access token |
+| POST | /api/v1/logout | Logout user |
+| POST | /api/v1/verify | Verify email |
+
+---
+
+## 👤 Profile Routes
+
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| GET | /api/v1/profile | Get user profile |
+
+---
+
+## 🧠 User Question Routes
+
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| GET | /api/v1/question | Get questions |
+| POST | /api/v1/question | Submit answers |
+| GET | /api/v1/question/result | Get result |
+
+---
+
+## 🛠️ Admin Question Routes
+
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| POST | /api/v1/question/admin | Upload questions |
+| PUT | /api/v1/question/admin | Update questions |
+| GET | /api/v1/question/admin | Read all questions |
+| DELETE | /api/v1/question/admin | Delete question |
+
+---
+
+## 📄 PDF Routes
+
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| POST | /api/v1/pdf | Upload PDF |
+| GET | /api/v1/pdf | Get all PDFs |
+| PUT | /api/v1/pdf | Update PDF |
+| DELETE | /api/v1/pdf | Delete PDF |
+---
+
 # 🌍 Deployment
 
 Backend deployed on Render.
